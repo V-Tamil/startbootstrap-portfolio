@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" class="css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Start Bootstrap</div>
+      <ul class="list">
+        <li><a href="">Home</a></li>
+        <li><a href="">Resume</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+      <div class="menu">
+        <div class="menu_line"></div>
+        <div class="menu_line"></div>
+        <div class="menu_line"></div>
+      </div>
+    </nav>
+    <header>
+      <h3 class="design">DESIGN.DEVELOPMENT.MARKETING</h3>
+      <p>I Can help your business to</p>
+      <p class="fast">Get online and grow fast</p>
+    </header>
+    <div class="button">
+      <a class="resume" href="">Resume</a>
+      <a class="projects" href="">Projects</a>
+    </div>
+    <div class="img">
+      <img src="" alt="" />
+    </div>
+    <div class="about_me">
+      <h1>About Me</h1>
+      <p class="my">My name is Start Bootstrap and I help brands grow</p>
+      <p class="lorem">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
+        repellendus facilis, aperiam natus dolorem dignissimos
+      </p>
+      <p class="error">
+        tempora laborum nostrum alias quis molestias at rem delectus saepe,
+        eveniet error.
+      </p>
+      <div>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-github"></i>
+      </div>
+    </div>
+    <footer>
+      <h4>Copyright © Your Website 2023</h4>
+      <div>
+        <a>Priyacy.</a>
+        <a>Terms.</a>
+        <a>Contact.</a>
+      </div>
+    </footer>
+
+    <script>
+      const menu = document.querySelector(".menu");
+      const list = document.querySelector(".list");
+      menu.addEventListener("click", () => {
+        list.classList.toggle("showmenu");
+      });
+    </script>
+
+    <!-- https://startbootstrap.com/previews/personal -->
+  </body>
+</html>
